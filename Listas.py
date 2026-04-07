@@ -1,5 +1,10 @@
+def separaEntDec(n: float):
+    return int(n), n - int(n)
+
+
 lista = ["Leonel", 20, 1.77, True]
 
+#destructuracion
 print(lista[0])
 print (lista[3])
 print(lista [len(lista)-1])
@@ -24,3 +29,7 @@ print(f"c{c} f{d}")
 
 b,a=a,b
 print(f"a{a} b{b}")
+
+print (separaEntDec(8.3))
+
+print(1.77 in lista)
